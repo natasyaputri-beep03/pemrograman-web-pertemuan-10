@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8f5;
+    color: #344b43;
+    margin: 0;
+    padding: 35px;
+}
+
+h1 {
+    color: #26745b;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #23835f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e58b42;
+}
+
+body > p a {
+    display: inline-block;
+    background: #2e9670;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 8px;
+}
+
+body > p a:hover {
+    background: #247858;
+    color: white;
+}
+
+table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+th {
+    background: #368f70;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 13px;
+    text-align: center;
+    border-bottom: 1px solid #e5eee9;
+}
+
+tr:hover {
+    background: #f2faf6;
+}
+
+button {
+    background: #e99a50;
+    color: white;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #d47e32;
+}
+
+body > form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+input,
+select {
+    width: 100%;
+    padding: 11px;
+    margin-top: 6px;
+    border: 1px solid #cbded4;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #368f70;
+}
+
+body > form button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+td form {
+    display: inline;
+}
+
+td form button {
+    padding: 7px 12px;
+}
+
+@media (max-width: 650px) {
+    body {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 8px 5px;
+    }
+}
